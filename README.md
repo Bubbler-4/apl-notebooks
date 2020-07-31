@@ -4,7 +4,7 @@ APL Jupyter notebooks, runnable via Binder and Gitpod
 
 ## Features
 
-* Docker images and configuration to run Jupyter notebok in...
+* Docker images and configuration to run Jupyter notebook in...
     * Binder (interactive but can't save your own work)
     * Gitpod (gives you persistent workspace to work with)
 * Comes with Dyalog APL 18.0 and associated Jupyter kernel
