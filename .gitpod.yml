@@ -1,7 +1,6 @@
 image:
-    file:gitpod.Dockerfile
+    file: gitpod.Dockerfile
 ports:
-  - port:8888
-    protocol: "http"
+  - port: 8888
 tasks:
-  - command: "jupyter notebook --NotebookApp.allow_origin=\'$(gp url 8888)\'"
+  - command: "jupyter notebook --NotebookApp.allow_origin='$(gp url 8888)'"
