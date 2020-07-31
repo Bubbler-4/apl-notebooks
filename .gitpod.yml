@@ -8,5 +8,5 @@ ports:
 tasks:
   - init: "mkdir -p /tmp/aplkernel && \
     git clone https://github.com/Dyalog/dyalog-jupyter-kernel.git /tmp/aplkernel && \
-    /tmp/aplkernel/dyalog-jupyter-kernel/install.sh"
+    /tmp/aplkernel/install.sh"
     command: "jupyter notebook --NotebookApp.allow_origin=$(gp url 8888)"
