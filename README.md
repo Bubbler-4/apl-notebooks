@@ -24,10 +24,5 @@ Ctrl+click on the link to open the Jupyter page. It is for authentication proces
 If you need to quit Jupyter server and restart, run the following command:
 
 ```
-jupyter notebook --NotebookApp.allow_origin=$(gp url 8888)
+./start_jupyter_gitpod.sh
 ```
-
-### Troubleshooting
-
-If Dyalog kernel is not running properly, quit Jupyter and try running `/tmp/aplkernel/dyalog-jupyter-kernel/install.sh`.
-
