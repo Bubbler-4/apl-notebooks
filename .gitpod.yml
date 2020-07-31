@@ -6,4 +6,7 @@ ports:
   - port: 4502
     onOpen: ignore
 tasks:
-  - command: "jupyter notebook --NotebookApp.allow_origin=$(gp url 8888)"
+  - init: "mkdir -p /tmp/aplkernel && \
+    cd /tmp/aplkernel && \
+    git clone https://github.com/Dyalog/dyalog-jupyter-kernel.git && /tmp/aplkernel/dyalog-jupyter-kernel/install.sh"
+    command: "jupyter notebook --NotebookApp.allow_origin=$(gp url 8888)"
