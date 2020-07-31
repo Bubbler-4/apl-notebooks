@@ -1,5 +1,5 @@
 FROM rikedyp/dyalog-jupyter-binder:49
-#COPY . ${HOME}
+COPY . ${HOME}
 
 USER root
 RUN apt-get update -y -q \

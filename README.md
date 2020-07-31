@@ -14,6 +14,13 @@ APL Jupyter notebooks, runnable via Binder and Gitpod
 Just click the badge saying **launch binder** above.
 You can browse the interactive notebooks and try out running your own program snippets, though you can't save it.
 
+If you want to use this Binder setup for your own repo, add a `Dockerfile` with the following content:
+
+```
+FROM bubbler9903/apl-notebooks:1.01
+COPY . ${HOME}
+```
+
 ## How to run in Gitpod
 
 Click on the **Gitpod: Ready-to-Code** badge above.
