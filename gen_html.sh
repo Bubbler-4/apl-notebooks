@@ -4,5 +4,5 @@ sed -i -e 's/∘]/∘⌸\&⌶@⌺⍥⍛⍢]/' $pygments_apl_lexer
 sed -i -e 's/↗]/↗⊆⊇⍸√⌾…⍮]/' $pygments_apl_lexer
 find . \( ! -path '*/.*' \) -name *.ipynb | while read filename; do
     jupyter nbconvert $filename --output-dir $(echo $(dirname $filename) | sed "s/^..notebooks/.\/html/") && \
-    sed -i -e 's/"custom\.css"/"\/custom.css"/' $(echo $filename | sed "s/^..notebooks/.\/html/" | sed "s/ipynb$/html/")
+    sed -i -e 's/"custom\.css"/"\/html\/custom.css"/' $(echo $filename | sed "s/^..notebooks/.\/html/" | sed "s/ipynb$/html/")
     done

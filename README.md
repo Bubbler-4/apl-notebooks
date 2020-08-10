@@ -8,6 +8,7 @@ APL Jupyter notebooks, runnable via Binder and Gitpod
     * Binder (interactive but can't save your own work)
     * Gitpod (gives you persistent workspace to work with)
 * Comes with Dyalog APL 18.0 and associated Jupyter kernel
+* HTML versions of the notebooks hosted on [GH Pages](https://bubbler-4.github.io/apl-notebooks/html)
 
 ## How to run in Binder
 
