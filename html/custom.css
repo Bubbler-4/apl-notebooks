@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'APL385';
+  src: url("//cdn.dyalog.com/fonts/Apl385.eot");
+  /* IE 9 Compatibility Mode */
+  src: local("APL385 Unicode"), url("//cdn.dyalog.com/fonts/Apl385.eot#iefix") format("embedded-opentype"), url("//cdn.dyalog.com/fonts/Apl385.woff") format("woff"), url("//cdn.dyalog.com/fonts/Apl385.ttf") format("truetype"), url("//cdn.dyalog.com/fonts/Apl385.svg#APL385") format("svg");
+  /* Chrome < 4, Legacy iOS */
+}
+div.hl-APL pre, code, .prompt, .output_subarea span {font-family:APL385,"DejaVu Sans Mono",monospace !important}
+div.highlight .err {
+  border:none !important;
+}
